@@ -62,8 +62,8 @@ export const projects = [
   {
     id: 8,
     title: "Crime Map Canada",
-    des: "Data mining",
-    img: "/b1.svg",
+    des: "Crime Map leverages data mining from the Ontario provincial website to evaluate crime severity across various cities and provinces in Canada.",
+    img: "/crime.png",
     iconLists: ["/java.svg"],
     link: "https://github.com/emmaashi/crime-map-canada",
   },

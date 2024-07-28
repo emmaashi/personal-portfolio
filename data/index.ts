@@ -1,5 +1,7 @@
 export const navItems = [
+  { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
+  { name: "Experience", link: "#experience" },
   { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
 ];
@@ -115,4 +117,21 @@ export const socialMedia = [
     img: "/git.svg",
     link: "https://github.com/emmaashi",
   },
+];
+
+export const photoGalleryImages = [
+  // random photos currently will change later on
+  "/Ultimate Team Photo.jpg",
+  "/Academic Award.jpeg",
+  "/Ultimate Me.jpg",
+  "/DSC09973.JPG",
+  "/DSC09170.JPG",
+  "/DSC09157.JPG", 
+  "DSC09151.JPG",
+  "DSC08980.JPG",
+  "DSC07190.jpg",
+  "DSC05526.jpg",
+  "Ultimate MVP.JPG",
+  "AOTY.JPG",
+  "AOTY Team.JPG", 
 ];

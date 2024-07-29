@@ -129,16 +129,12 @@ export const contact = [
 export const photoGalleryImages = [
   // random photos currently will change later on
   "/Ultimate Team Photo.jpg",
-  "/Academic Award.jpeg",
-  "/Ultimate Me.jpg",
-  "/DSC09973.JPG",
+  "/Leadership.JPG",
   "/DSC09170.JPG",
-  "/DSC09157.JPG", 
-  "DSC09151.JPG",
+  "AOTY.JPG",
   "DSC08980.JPG",
   "DSC07190.jpg",
   "DSC05526.jpg",
   "Ultimate MVP.JPG",
-  "AOTY.JPG",
   "AOTY Team.JPG", 
 ];

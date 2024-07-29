@@ -21,7 +21,7 @@ const Footer = () => {
           Please feel free to contact me if you’d like to discuss tech, explore
           opportunities, or simply have a chat!
         </p>
-        <a href="mailto:emmashi2006@gmail.com">
+        <a href="mailto:emma.shi@uwaterloo.ca">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}

@@ -63,6 +63,7 @@ const Hero = () => {
                   src={src}
                   alt={`Gallery Image ${index + 1}`}
                   className="w-full h-full object-cover"
+                  style={{ objectPosition: "center 10%" }} 
                 />
               </div>
             ))}

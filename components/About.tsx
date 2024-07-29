@@ -19,7 +19,7 @@ const About = () => {
         </div>
         <div className="max-w-2xl text-center mt-10 p-4">
           <p>
-            Hi! My name is Emma Shi and I am a <b>1A Computer Science</b>{" "}
+            Hi! My name is Emma Shi and I am a <b>Computer Science</b>{" "}
             student at the <b>University of Waterloo!</b> I’m passionate about
             technology, finance, and sports, and I’m always eager to connect
             with new people!

@@ -1,5 +1,5 @@
 import { FaLocationArrow } from "react-icons/fa6";
-import { socialMedia } from "@/data";
+import { contact } from "@/data";
 import MagicButton from "@/components/ui/MagicButton";
 
 const Footer = () => {
@@ -36,7 +36,7 @@ const Footer = () => {
         </p>
 
         <div className="flex items-center md:gap-3 gap-6 mt-6 md:mt-0">
-          {socialMedia.map((info) => (
+          {contact.map((info) => (
             <a
               key={info.id}
               href={info.link}

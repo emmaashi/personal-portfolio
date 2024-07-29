@@ -81,7 +81,7 @@ export const workExperience = [
   {
     id: 1,
     title: "Software Engineer Intern @ Ply Health (YC S24)",
-    desc: "Helping practices get in network with payers. Assisted in web-development using Typescript and Supabase.",
+    desc: "Helping practices get in network with payers with automation and Behavioural Health expertise. Assisted in web-development using Typescript and Supabase.",
     className: "md:col-span-2",
     thumbnail: "/ply.jpeg",
   },
@@ -99,9 +99,16 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/som.png",
   },
+  {
+    id: 4,
+    title: "Finance Executive @ Ignition Hacks",
+    desc: "Collaborated with fellow executives to raise $15,000+ in sponsorships from leading companies in the tech and finance industries.",
+    className: "md:col-span-2",
+    thumbnail: "/ignition.png",
+  },
 ];
 
-export const socialMedia = [
+export const contact = [
   {
     id: 1,
     img: "/link.svg",

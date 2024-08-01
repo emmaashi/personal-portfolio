@@ -2,7 +2,6 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "@/components/ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import { photoGalleryImages } from "@/data/index";
 
 const Hero = () => {
   return (
@@ -49,27 +48,6 @@ const Hero = () => {
       </div>
 
       <div style={{ height: "90px" }}></div>
-
-      {/* Photo Gallery */}
-      <div className="absolute bottom-0 left-0 w-full">
-        <div className="overflow-hidden relative">
-          <div className="animate-scroll flex w-[300%]">
-            {photoGalleryImages.map((src, index) => (
-              <div
-                key={index}
-                className="inline-block w-[20%] h-40 bg-gray-300 rounded-lg overflow-hidden mx-2"
-              >
-                <img
-                  src={src}
-                  alt={`Gallery Image ${index + 1}`}
-                  className="w-full h-full object-cover"
-                  style={{ objectPosition: "center 10%" }} 
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
     </div>
   );
 };

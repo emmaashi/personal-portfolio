@@ -81,7 +81,7 @@ export const workExperience = [
   {
     id: 1,
     title: "Software Engineer Intern @ Ply Health (YC S24)",
-    desc: "Helping practices get in network with payers with automation and Behavioural Health expertise. Assisted in web-development using Typescript and Supabase.",
+    desc: "Helping practices get in network with payers. Worked with TypeScript, Supabase, React, Next.js, Vercel, and Git during the development process.",
     className: "md:col-span-2",
     thumbnail: "/ply.jpeg",
   },
@@ -124,17 +124,4 @@ export const contact = [
     img: "/git.svg",
     link: "https://github.com/emmaashi",
   },
-];
-
-export const photoGalleryImages = [
-  // random photos currently will change later on
-  "/Ultimate Team Photo.jpg",
-  "/Leadership.JPG",
-  "/DSC09170.JPG",
-  "AOTY.JPG",
-  "DSC08980.JPG",
-  "DSC07190.jpg",
-  "DSC05526.jpg",
-  "Ultimate MVP.JPG",
-  "AOTY Team.JPG", 
 ];

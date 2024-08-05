@@ -66,9 +66,17 @@ export const projects = [
     iconLists: ["/java.svg", "/sql.svg"],
     link: "https://github.com/emmaashi/divvy",
   },
-
   {
     id: 8,
+    title: "Newsflix",
+    des: "Removing the bias from media, ensuring that young readers have access to holistic, reliable information regarding current world issues.",
+    img: "/newsflix.png",
+    iconLists: ["/re.svg", "/py.svg", "/tail.svg", "/postman.svg"],
+    link: "https://github.com/emmaashi/crime-map-canada",
+  },
+
+  {
+    id: 9,
     title: "Crime Map Canada",
     des: "Crime Map leverages data mining from the Ontario provincial website to evaluate crime severity across various cities and provinces in Canada.",
     img: "/crime.png",

@@ -34,7 +34,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            computer science @ university of waterloo
+            Computer Science @ University of Waterloo
           </p>
 
           <a href="#projects">

@@ -70,7 +70,7 @@ export const projects = [
     id: 8,
     title: "Newsflix",
     des: "Removing the bias from media, ensuring that young readers have access to holistic, reliable information regarding current world issues.",
-    img: "/Newsflix.png",
+    img: "/newsflix.png",
     iconLists: ["/re.svg", "/py.svg", "/tail.svg", "/postman.svg"],
     link: "https://github.com/emmaashi/crime-map-canada",
   },

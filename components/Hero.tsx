@@ -29,7 +29,7 @@ const Hero = () => {
           </p>
 
           <TextGenerateEffect
-            words="Hey, I'm Emma"
+            words="Hey, I'm Emma Shi"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 

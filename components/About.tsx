@@ -8,7 +8,7 @@ const About = () => {
         About <span className="text-purple">Me</span>
       </h1>
       <div className="relative flex flex-col items-center mt-10">
-        <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-white relative">
+        <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white relative">
           <Image
             src="/Grad.png"
             alt="Headshot"
@@ -18,11 +18,13 @@ const About = () => {
           />
         </div>
         <div className="max-w-2xl text-center mt-10 p-4">
-          <p>
-            Hi! My name is Emma Shi and I am a <b>Computer Science</b>{" "}
-            student at the <b>University of Waterloo!</b> I’m passionate about
-            technology, finance, and sports, and I’m always eager to connect
-            with new people!
+          <p className="leading-relaxed">
+            Hi! I’m Emma Shi, a <b>Computer Science</b> student at the{" "}
+            <b>University of Waterloo</b> with a passion for leveraging tech for
+            social good, particularly at the crossroads of finance and
+            environmental sustainability. When I’m not diving into new side
+            projects, you’ll often find me staying active—whether it’s
+            throwing a frisbee, playing basketball, or swimming!
           </p>
         </div>
       </div>

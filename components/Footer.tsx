@@ -10,8 +10,8 @@ const Footer = () => {
           I would <span className="text-purple">LOVE</span> to connect!
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Please feel free to contact me if you’d like to discuss tech, explore
-          opportunities, or simply have a chat!
+          Please do not hesitate to contact me if you’d like to discuss tech, explore
+          new opportunities, or simply have a chat!
         </p>
         <a href="mailto:emma.shi@uwaterloo.ca">
           <MagicButton

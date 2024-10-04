@@ -10,7 +10,7 @@ const About = () => {
       <div className="relative flex flex-col items-center mt-10">
         <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white relative">
           <Image
-            src="/Grad.png"
+            src="/emma.png"
             alt="Headshot"
             layout="fill"
             objectFit="cover"

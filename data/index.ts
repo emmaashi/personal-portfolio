@@ -83,6 +83,14 @@ export const projects = [
     iconLists: ["/java.svg"],
     link: "https://github.com/emmaashi/crime-map-canada",
   },
+  {
+    id: 10,
+    title: "Traura.Ai",
+    des: "Combining speech recognition with semantic similarity models, Traura.ai gamifies your everyday conversations to produce your 'aura' score.",
+    img: "/traura.png",
+    iconLists: ["re.svg", "py.svg", "tail.svg"],
+    link: "https://devpost.com/software/traura",
+  },
 ];
 
 export const workExperience = [

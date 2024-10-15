@@ -12,7 +12,7 @@ export const projects = [
     title: "DAG",
     des: "Using Next.js, MongoDB, Cohere, Tailwind CSS, Flow, React, Syro, and Solana, my team and I created DAG, a one-of-a-kind platform that allows for decentralized data aggregation across all of machine learning. This project won 'Best use of Solana' and 'Best use of Flow' at Hack the North 2023, North America's largest hackathon.",
     img: "/dag.png",
-    iconLists: ["/re.svg", "/mongo.svg", "/solana.svg", "/next.svg"],
+    iconLists: ["/re.svg", "/mongo.svg", "/solana.svg", "/next.svg", "/figma.svg"],
     link: "https://devpost.com/software/dag.com",
   },
   {
@@ -45,7 +45,7 @@ export const projects = [
     title: "Amazing Labyrinth",
     des: "Strategic maze game where players navigate through shifting pathways to find treasures. This version includes features like shortest path and animations to enhance the gaming experience.",
     img: "/labyrinth.png",
-    iconLists: ["/java.svg"],
+    iconLists: ["/java.svg", "/figma.svg"],
     link: "https://github.com/emmaashi/amazing-labyrinth",
   },
 
@@ -63,7 +63,7 @@ export const projects = [
     title: "Divvy",
     des: "Divvy is a project management tool designed to streamline the process of distributing tasks within a group or team, particularly catering to school group projects. The tool provides features for task management, user performance tracking, and project planning.",
     img: "/divvy.png",
-    iconLists: ["/java.svg", "/sql.svg"],
+    iconLists: ["/java.svg", "/sql.svg", "/figma.svg"],
     link: "https://github.com/emmaashi/divvy",
   },
   {
@@ -71,7 +71,7 @@ export const projects = [
     title: "Newsflix",
     des: "Removing the bias from media, ensuring that young readers have access to holistic, reliable information regarding current world issues.",
     img: "/Newsflix.png",
-    iconLists: ["/re.svg", "/py.svg", "/tail.svg", "/postman.svg"],
+    iconLists: ["/re.svg", "/py.svg", "/tail.svg", "/postman.svg", "/figma.svg"],
     link: "https://devpost.com/software/newsflix",
   },
 
@@ -80,7 +80,7 @@ export const projects = [
     title: "Crime Map Canada",
     des: "Crime Map leverages data mining from the Ontario provincial website to evaluate crime severity across various cities and provinces in Canada.",
     img: "/crime.png",
-    iconLists: ["/java.svg"],
+    iconLists: ["/java.svg", "/figma.svg"],
     link: "https://github.com/emmaashi/crime-map-canada",
   },
   {
@@ -88,7 +88,7 @@ export const projects = [
     title: "Traura.Ai",
     des: "Combining speech recognition with semantic similarity models, Traura.ai gamifies your everyday conversations to produce your 'aura' score.",
     img: "/traura.png",
-    iconLists: ["re.svg", "py.svg", "tail.svg"],
+    iconLists: ["re.svg", "py.svg", "tail.svg", "/figma.svg"],
     link: "https://devpost.com/software/traura",
   },
 ];

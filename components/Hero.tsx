@@ -2,6 +2,9 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "@/components/ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { PinContainer } from "./ui/3d-pin";
+import Image from "next/image";
+import { articles } from "@/data";
 
 const Hero = () => {
   return (
@@ -47,7 +50,29 @@ const Hero = () => {
         </div>
       </div>
 
-      <div style={{ height: "90px" }}></div>
+      {/* Articles Section */}
+      <div className="mt-48">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {articles.map(({ id, title, description, img, link }) => (
+            <div key={id} className="flex flex-col items-center">
+              <PinContainer title={title} href={link}>
+                <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-5">
+                  <div className="relative w-full h-full overflow-hidden bg-[#13162d]">
+                    <Image
+                      src={img}
+                      alt={title}
+                      layout="fill"
+                      objectFit="cover"
+                    />
+                  </div>
+                </div>
+                <h3 className="font-bold text-lg line-clamp-1 mt-4">{title}</h3>
+                <p className="text-sm line-clamp-2">{description}</p>
+              </PinContainer>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };

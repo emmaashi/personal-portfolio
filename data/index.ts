@@ -6,6 +6,30 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
+export const articles = [
+  {
+    id: 1,
+    title: "University of Waterloo",
+    description: "Discover the experiences that led me to UW and ignited my passion for innovation and social impact.",
+    img: "/uw.webp",
+    link: "https://uwaterloo.ca/news/meet-waterloos-2024-schulich-leaders",
+  },
+  {
+    id: 2,
+    title: "Schulich Leaders",
+    description: "Selected as 1 of 100 recipients of Canada's largest undergraduate STEM scholarship ($100,000).",
+    img: "/schulich.png",
+    link: "https://schulichleaders.com/scholars/emmashi/",
+  },
+  {
+    id: 3,
+    title: "Shad Canada",
+    description: "The crossover of STEAM and Entrepreneurship: how I used my passion to empower underrepresented communities and inspire others to harness their potential.",
+    img: "/shad-schulich.png",
+    link: "https://www.shad.ca/celebrating-the-shad-alum-named-2024-schulich-leaders-emma-shi/",
+  },
+];
+
 export const projects = [
   {
     id: 1,

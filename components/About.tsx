@@ -1,4 +1,7 @@
+"use client";
 import React from "react";
+import { motion } from "framer-motion";
+import { LinkPreview } from "./ui/LinkPreview";
 import Image from "next/image";
 
 const About = () => {
@@ -17,14 +20,49 @@ const About = () => {
             className="absolute inset-0"
           />
         </div>
-        <div className="max-w-2xl text-center mt-10 p-4">
-        <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg">
-            Hi! I’m Emma Shi, a <b>Computer Science</b> student at the{" "}
-            <b>University of Waterloo</b> with a passion for leveraging tech for
-            social good, particularly at the crossroads of finance and
-            environmental sustainability. When I’m not diving into new side
-            projects, you’ll often find me staying active—whether it’s throwing
-            a frisbee, playing basketball, or swimming!
+        <div className="max-w-4xl text-center mt-10 p-4">
+          {" "}
+          <p className="text-neutral-500 dark:text-neutral-400 text-lg md:text-2xl max-w-4xl mx-auto leading-relaxed">
+            {" "}
+            Hi! I’m{" "}
+            <LinkPreview
+              imageSrc="/ulti.PNG"
+              className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500"
+            >
+              Emma Shi
+            </LinkPreview>
+            , a <b>Computer Science</b> student at the University of Waterloo
+            with a passion for leveraging {""}
+            <LinkPreview
+              imageSrc="/google.jpeg"
+              className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500"
+            >
+              tech
+            </LinkPreview>{" "}
+            for social good, particularly at
+            the crossroads of finance and environmental sustainability. When I’m
+            not diving into new side projects, you’ll often find me staying{" "}
+            <LinkPreview
+              imageSrc="/aoty.jpg"
+              className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500"
+            >
+              active
+            </LinkPreview>
+            —whether it’s throwing a{" "}
+            <LinkPreview
+              imageSrc="/warriors.PNG"
+              className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500"
+            >
+              frisbee
+            </LinkPreview>
+            , playing{" "}
+            <LinkPreview
+              imageSrc="/basketball.JPG"
+              className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500"
+            >
+              basketball
+            </LinkPreview>
+            , or swimming!
           </p>
         </div>
       </div>

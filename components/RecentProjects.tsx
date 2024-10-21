@@ -36,7 +36,7 @@ const RecentProjects = () => {
 
               <CardItem
                 translateZ="50"
-                className="text-xl font-bold text-white lg:text-2xl md:text-xl text-base line-clamp-1"
+                className="text-xl font-bold text-white lg:text-2xl md:text-xl line-clamp-1"
               >
                 {title}
               </CardItem>
@@ -70,7 +70,7 @@ const RecentProjects = () => {
                   as="button"
                   className="px-4 py-2 rounded-xl text-xs font-normal text-white"
                 >
-                  <a href={link} target="_blank">
+                  <a href={link}>
                     Try now →
                   </a>
                 </CardItem>
@@ -81,7 +81,7 @@ const RecentProjects = () => {
                   as="button"
                   className="px-4 py-2 rounded-xl bg-white text-black text-xs font-bold"
                 >
-                  <a href={link} target="_blank" className="text-">
+                  <a href={link}>
                     {date}
                   </a>
                 </CardItem>

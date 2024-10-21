@@ -16,7 +16,7 @@ export const articles = [
   },
   {
     id: 2,
-    title: "Schulich Leaders",
+    title: "Schulich Leader",
     description: "Selected as 1 of 100 recipients of Canada's largest undergraduate STEM scholarship ($100,000).",
     img: "/schulich.png",
     link: "https://schulichleaders.com/scholars/emmashi/",
@@ -38,6 +38,7 @@ export const projects = [
     img: "/dag.png",
     iconLists: ["/re.svg", "/mongo.svg", "/solana.svg", "/next.svg", "/figma.svg"],
     link: "https://devpost.com/software/dag.com",
+    hack: "Hack the North 2024"
   },
   {
     id: 2,
@@ -46,6 +47,7 @@ export const projects = [
     img: "/optimed.png",
     iconLists: ["/html.svg", "/tail.svg", "/js.svg"],
     link: "https://optimed.falsebrb.repl.co/",
+    hack: "Shad Canada 2022"
   },
   {
     id: 3,
@@ -54,6 +56,7 @@ export const projects = [
     img: "/nightlight.png",
     iconLists: ["/html.svg", "/tail.svg", "/js.svg", "/figma.svg"],
     link: "https://devpost.com/software/nightlight-64g8wc",
+    hack: "Technova 2022"
   },
   {
     id: 4,
@@ -62,6 +65,7 @@ export const projects = [
     img: "/firecast.png",
     iconLists: ["/html.svg", "/tail.svg", "/js.svg", "figma.svg"],
     link: "https://devpost.com/software/firecast",
+    hack: "Hack the 6ix 2023"
   },
 
   {
@@ -71,6 +75,7 @@ export const projects = [
     img: "/labyrinth.png",
     iconLists: ["/java.svg", "/figma.svg"],
     link: "https://github.com/emmaashi/amazing-labyrinth",
+    hack: "ICS4U1"
   },
 
   {
@@ -80,6 +85,7 @@ export const projects = [
     img: "/settlemize.png",
     iconLists: ["/figma.svg"],
     link: "https://devpost.com/software/settlemize-byg3pn",
+    hack: "Hack the 6ix 2022"
   },
 
   {
@@ -89,6 +95,7 @@ export const projects = [
     img: "/divvy.png",
     iconLists: ["/java.svg", "/sql.svg", "/figma.svg"],
     link: "https://github.com/emmaashi/divvy",
+    hack: "ICS4U1 Final"
   },
   {
     id: 8,
@@ -97,6 +104,7 @@ export const projects = [
     img: "/Newsflix.png",
     iconLists: ["/re.svg", "/py.svg", "/tail.svg", "/postman.svg", "/figma.svg"],
     link: "https://devpost.com/software/newsflix",
+    hack: "Hack the 6ix 2024"
   },
 
   {
@@ -106,6 +114,7 @@ export const projects = [
     img: "/crime.png",
     iconLists: ["/java.svg", "/figma.svg"],
     link: "https://github.com/emmaashi/crime-map-canada",
+    hack: "ICS4U1"
   },
   {
     id: 10,
@@ -114,6 +123,7 @@ export const projects = [
     img: "/traura.png",
     iconLists: ["re.svg", "py.svg", "tail.svg", "/figma.svg"],
     link: "https://devpost.com/software/traura",
+    hack: "Hack the North 2024"
   },
 ];
 

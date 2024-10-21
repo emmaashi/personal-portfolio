@@ -1,23 +1,28 @@
 import React from "react";
 import { projects } from "@/data";
-import { PinContainer } from "./ui/3d-pin";
+import { CardContainer, CardBody, CardItem } from "./ui/3d-card";
 import Image from 'next/image';
 
 const RecentProjects = () => {
   return (
-    <div id = "projects" className="py-20">
+    <div id="projects" className="py-10">
       <h1 className="heading">
         My <span className="text-purple">Projects</span>
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 p-4 mt-10">
-        {projects.map(({ id, title, des, img, iconLists, link }) => (
-          <div
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {projects.map(({ id, title, des, img, iconLists, link, hack }) => (
+          <CardContainer
             key={id}
-            className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
+            className="inter-var w-full"
           >
-            <PinContainer title={title} href={link}>
-              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
-                <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
+            <CardBody
+              className="relative group/card hover:shadow-2xl hover:shadow-emerald-500/[0.1] border border-white/[0.1] rounded-xl p-6 w-full h-full max-w-md"
+            >
+              <CardItem
+                translateZ="100"
+                className="relative flex items-center justify-center w-full h-[15rem] lg:h-[20rem] overflow-hidden mb-5"
+              >
+                <div className="relative w-full h-full overflow-hidden lg:rounded-3xl">
                   <Image src="/bg.png" alt="bg-img" layout="fill" objectFit="cover" />
                 </div>
                 <Image
@@ -27,13 +32,23 @@ const RecentProjects = () => {
                   objectFit="contain"
                   className="z-10 absolute bottom-0"
                 />
-              </div>
-              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+              </CardItem>
+
+              <CardItem
+                translateZ="50"
+                className="text-xl font-bold text-white lg:text-2xl md:text-xl text-base line-clamp-1"
+              >
                 {title}
-              </h1>
-              <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-4">
+              </CardItem>
+
+              <CardItem
+                as="p"
+                translateZ="60"
+                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-4 text-white mt-2"
+              >
                 {des}
-              </p>
+              </CardItem>
+
               <div className="flex items-center justify-between mt-7 mb-3">
                 <div className="flex items-center">
                   {iconLists.map((icon, index) => (
@@ -47,8 +62,32 @@ const RecentProjects = () => {
                   ))}
                 </div>
               </div>
-            </PinContainer>
-          </div>
+
+              <div className="flex justify-between items-center mt-7">
+                <CardItem
+                  translateZ={20}
+                  translateX={-40}
+                  as="button"
+                  className="px-4 py-2 rounded-xl text-xs font-normal text-white"
+                >
+                  <a href={link} target="_blank">
+                    Try now →
+                  </a>
+                </CardItem>
+
+                <CardItem
+                  translateZ={20}
+                  translateX={40}
+                  as="button"
+                  className="px-4 py-2 rounded-xl bg-white text-black text-xs font-bold"
+                >
+                  <a href={link} target="_blank" className="text-">
+                    {hack}
+                  </a>
+                </CardItem>
+              </div>
+            </CardBody>
+          </CardContainer>
         ))}
       </div>
     </div>

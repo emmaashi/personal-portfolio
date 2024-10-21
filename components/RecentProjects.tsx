@@ -10,7 +10,7 @@ const RecentProjects = () => {
         My <span className="text-purple">Projects</span>
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {projects.map(({ id, title, des, img, iconLists, link, hack }) => (
+        {projects.map(({ id, title, des, img, iconLists, link, date }) => (
           <CardContainer
             key={id}
             className="inter-var w-full"
@@ -82,7 +82,7 @@ const RecentProjects = () => {
                   className="px-4 py-2 rounded-xl bg-white text-black text-xs font-bold"
                 >
                   <a href={link} target="_blank" className="text-">
-                    {hack}
+                    {date}
                   </a>
                 </CardItem>
               </div>

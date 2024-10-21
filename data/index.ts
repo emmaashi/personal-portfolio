@@ -38,7 +38,7 @@ export const projects = [
     img: "/dag.png",
     iconLists: ["/re.svg", "/mongo.svg", "/solana.svg", "/next.svg", "/figma.svg"],
     link: "https://devpost.com/software/dag.com",
-    hack: "Hack the North 2024"
+    date: "Hack the North 2023"
   },
   {
     id: 2,
@@ -47,7 +47,7 @@ export const projects = [
     img: "/optimed.png",
     iconLists: ["/html.svg", "/tail.svg", "/js.svg"],
     link: "https://optimed.falsebrb.repl.co/",
-    hack: "Shad Canada 2022"
+    date: "Shad Canada 2022"
   },
   {
     id: 3,
@@ -56,7 +56,7 @@ export const projects = [
     img: "/nightlight.png",
     iconLists: ["/html.svg", "/tail.svg", "/js.svg", "/figma.svg"],
     link: "https://devpost.com/software/nightlight-64g8wc",
-    hack: "Technova 2022"
+    date: "Technova 2022"
   },
   {
     id: 4,
@@ -65,7 +65,7 @@ export const projects = [
     img: "/firecast.png",
     iconLists: ["/html.svg", "/tail.svg", "/js.svg", "figma.svg"],
     link: "https://devpost.com/software/firecast",
-    hack: "Hack the 6ix 2023"
+    date: "Hack the 6ix 2023"
   },
 
   {
@@ -75,7 +75,7 @@ export const projects = [
     img: "/labyrinth.png",
     iconLists: ["/java.svg", "/figma.svg"],
     link: "https://github.com/emmaashi/amazing-labyrinth",
-    hack: "ICS4U1"
+    date: "March 2024"
   },
 
   {
@@ -85,7 +85,7 @@ export const projects = [
     img: "/settlemize.png",
     iconLists: ["/figma.svg"],
     link: "https://devpost.com/software/settlemize-byg3pn",
-    hack: "Hack the 6ix 2022"
+    date: "Hack the 6ix 2022"
   },
 
   {
@@ -95,7 +95,7 @@ export const projects = [
     img: "/divvy.png",
     iconLists: ["/java.svg", "/sql.svg", "/figma.svg"],
     link: "https://github.com/emmaashi/divvy",
-    hack: "ICS4U1 Final"
+    date: "June 2024"
   },
   {
     id: 8,
@@ -104,7 +104,7 @@ export const projects = [
     img: "/Newsflix.png",
     iconLists: ["/re.svg", "/py.svg", "/tail.svg", "/postman.svg", "/figma.svg"],
     link: "https://devpost.com/software/newsflix",
-    hack: "Hack the 6ix 2024"
+    date: "Hack the 6ix 2024"
   },
 
   {
@@ -114,7 +114,7 @@ export const projects = [
     img: "/crime.png",
     iconLists: ["/java.svg", "/figma.svg"],
     link: "https://github.com/emmaashi/crime-map-canada",
-    hack: "ICS4U1"
+    date: "April 2024"
   },
   {
     id: 10,
@@ -123,7 +123,7 @@ export const projects = [
     img: "/traura.png",
     iconLists: ["re.svg", "py.svg", "tail.svg", "/figma.svg"],
     link: "https://devpost.com/software/traura",
-    hack: "Hack the North 2024"
+    date: "Hack the North 2024"
   },
 ];
 

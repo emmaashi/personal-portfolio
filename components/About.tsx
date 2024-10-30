@@ -75,7 +75,7 @@ const About = () => {
       </div>
 
       {/* Articles Section */}
-      {/* <div className="mt-48">
+      <div className="mt-48">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {articles.map(({ id, title, description, img, link }) => (
             <div key={id} className="flex flex-col items-center">
@@ -96,7 +96,7 @@ const About = () => {
             </div>
           ))}
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

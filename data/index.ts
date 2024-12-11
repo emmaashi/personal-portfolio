@@ -136,29 +136,30 @@ export const projects = [
 ];
 
 export const workExperience = [ 
-  {  id: 1,
-    title: "ML/Backend Engineer @ Wat Street",
+  {  
+    id: 1,
+    title: "ML/Backend Engineer \n @ Wat Street",
     desc: "Developing infrastructure to support the scaling of ML models in quantitative finance applications.",
     className: "md:col-span-2", 
     thumbnail: "/watstreet.jpeg",
   },
   {
     id: 2,
-    title: "Software Engineer Intern @ Ply Health (YC S24)",
+    title: "Software Engineer Intern \n @ Ply Health (YC S24)",
     desc: "Helping practices get in network with payers. Worked with TypeScript, Supabase, React, Next.js, Vercel, and Git during the development process.",
     className: "md:col-span-2",
     thumbnail: "/ply.jpeg",
   },
   {
     id: 3,
-    title: "Program Assistant @ Shad Canada",
+    title: "Program Assistant \n @ Shad Canada",
     desc: "Coordinated activities, supported program operations, and mentored 120 students at the Ontario Tech University campus.",
     className: "md:col-span-2", 
     thumbnail: "/shad.png",
   },
   {
     id: 4,
-    title: "Assistant Teacher @ Spirit of Math",
+    title: "Assistant Teacher \n @ Spirit of Math",
     desc: "Enhanced the learning experience of students in grade 1, 2, 5, 6, 9, and 10 by aiding in the delivery of advanced math curriculum.",
     className: "md:col-span-2",
     thumbnail: "/som.png",
